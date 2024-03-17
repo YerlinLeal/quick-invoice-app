@@ -1,0 +1,38 @@
+.input {
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input input {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border:none;
+    padding: 30px 20px;
+    outline-color: #264D50;
+    font-size: 16px;
+    box-sizing: border-box;
+
+    /* Pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        padding: 20px 20px;
+    }
+}
+
+.input-color input {
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.input-checkbox input {
+    height: 30px;
+    padding: 5px 20px;
+}

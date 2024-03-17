@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    /* Pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        font-size: 7px;
+    }
+}
+
+.img-logo {
+    width: 250px;
+
+    /* Pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        width: 80px;
+    }
+}

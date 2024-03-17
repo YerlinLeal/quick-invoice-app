@@ -1,0 +1,10 @@
+.my-table{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        margin: 10px 35px;
+    }
+}
