@@ -1,0 +1,59 @@
+.form-product {
+    display: flex;
+    justify-content: center;
+}
+
+.form-product label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-product input {
+    flex-grow: 1;
+}
+
+.form-product button {
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+#form-button-submit{
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    #table-sale {
+        font-size: 10px;
+    }
+
+    .overflow {
+        overflow: scroll;
+    }
+
+    .form-product {
+        display: flow;
+    }
+
+    .form-product label {
+        margin-top: 1em;
+    }
+
+    .form-product input {
+        margin-top: 0.3em;
+    }
+
+    #search-form {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .center {
+        display: ruby-text;
+    }
+}  

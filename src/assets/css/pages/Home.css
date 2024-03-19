@@ -1,0 +1,14 @@
+.home .image {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    width: 35%;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .home .image {
+        width: 100%;
+    }
+    
+} 

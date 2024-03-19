@@ -1,0 +1,10 @@
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    #table-products {
+        font-size: 10px;
+    }
+
+    .overflow {
+        overflow: scroll;
+    }
+}  
